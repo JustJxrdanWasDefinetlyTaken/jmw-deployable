@@ -28,7 +28,7 @@ server.on("request", async (req, res) => {
 
 server.on("listening", () => {
   console.log(
-    kuler(`Server has been started! Listening on port ${PORT}`, "#00ff00"),
+    kuler(`Astro has launched! View at ${PORT}`, "#00ff00"),
   );
   if (process.env.REPL_SLUG && process.env.REPL_OWNER)
     console.log(
