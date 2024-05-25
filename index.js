@@ -14,7 +14,7 @@ console.log(`
 `);
 
 const server = http.createServer();
-const url = "https://astro-static.pages.dev";
+const url = "https://astro.billigerhost.com";
 const PORT = process.env.PORT || 8080;
 
 server.on("request", async (req, res) => {
