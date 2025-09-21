@@ -14,7 +14,7 @@ console.log(`
 `);
 
 const server = http.createServer();
-const url = "https://jordansmath.work";
+const url = "https://jrdn.calculra.store";
 const PORT = process.env.PORT || 8080;
 
 server.on("request", async (req, res) => {
