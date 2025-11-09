@@ -6,7 +6,3 @@ services:
     envVars:
       - key: RENDER_ALLOW_WEBSOCKETS
         value: true
-    routes:
-      - type: websocket
-        source: /
-        destination: /
