@@ -3,3 +3,10 @@ services:
     name: edu
     env: docker
     plan: free
+    envVars:
+      - key: RENDER_ALLOW_WEBSOCKETS
+        value: true
+    routes:
+      - type: websocket
+        source: /
+        destination: /
